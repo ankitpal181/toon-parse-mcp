@@ -1,5 +1,5 @@
 import pytest
-from src.server import optimize_input_context, get_protocol
+from src.toon_parse_mcp.server import optimize_input_context, get_protocol
 import os
 
 def test_optimize_input_context_json():
@@ -18,13 +18,13 @@ def test_get_protocol():
 async def test_read_and_optimize_file_missing(tmp_path):
     # Since we can't easily mock FastMCP tool calls directly without more setup,
     # we test the underlying logic if exposed, but server.py tools are sync.
-    from src.server import read_and_optimize_file
+    from src.toon_parse_mcp.server import read_and_optimize_file
     
     result = read_and_optimize_file("non_existent_file.txt")
     assert "Error: File not found" in result
 
 def test_read_and_optimize_file_success(tmp_path):
-    from src.server import read_and_optimize_file
+    from src.toon_parse_mcp.server import read_and_optimize_file
     test_file = tmp_path / "test.py"
     test_file.write_text("def test():\n    # comment\n    pass")
     

@@ -15,7 +15,7 @@ async def test_server_stdio_integration():
     """
     server_params = StdioServerParameters(
         command=PYTHON_EXE,
-        args=["-m", "src.server"],
+        args=["-m", "src.toon_parse_mcp.server"],
         env=os.environ.copy()
     )
 

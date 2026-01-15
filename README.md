@@ -37,7 +37,7 @@ pip install toon-parse-mcp
 2. Click "+ Add New MCP Server".
 3. Name: `toon-parse-mcp`
 4. Type: `command`
-5. Command: `python -m src.server` (Ensure your environment is active or use absolute path to python)
+5. Command: `python3 -m toon_parse_mcp.server` (Ensure your environment is active or use absolute path to python)
 
 ### Windsurf
 
@@ -49,8 +49,8 @@ pip install toon-parse-mcp
 {
   "mcpServers": {
     "toon-parse-mcp": {
-      "command": "python",
-      "args": ["-m", "src.server"]
+      "command": "python3",
+      "args": ["-m", "toon_parse_mcp.server"]
     }
   }
 }
@@ -67,8 +67,8 @@ pip install toon-parse-mcp
 {
   "mcpServers": {
     "toon-parse-mcp": {
-      "command": "python",
-      "args": ["-m", "src.server"]
+      "command": "python3",
+      "args": ["-m", "toon_parse_mcp.server"]
     }
   }
 }
@@ -82,8 +82,8 @@ Add this to your `claude_desktop_config.json`:
 {
   "mcpServers": {
     "toon-parse-mcp": {
-      "command": "python",
-      "args": ["-m", "src.server"]
+      "command": "python3",
+      "args": ["-m", "toon_parse_mcp.server"]
     }
   }
 }
