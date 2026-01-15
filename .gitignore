@@ -1,0 +1,15 @@
+# General
+__pycache__
+.pytest_cache/
+.python-version
+systemprompt.yaml
+
+# Python build artifacts
+dist/
+build/
+*.egg-info/
+
+# Python virtual environment (optional, but recommended)
+.venv/
+*env/
+venv/

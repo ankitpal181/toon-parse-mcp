@@ -1,0 +1,27 @@
+{
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name": "io.github.ankitpal181/toon-parse",
+    "description": "Token optimization MCP server that reduces LLM context by stripping code comments and converting data formats to TOON",
+    "repository": {
+        "url": "https://github.com/ankitpal181/toon-parse-mcp",
+        "source": "github"
+    },
+    "version": "1.0.0-beta",
+    "packages": [
+        {
+            "registryType": "pypi",
+            "identifier": "toon-parse-mcp",
+            "version": "1.0.0-beta",
+            "transport": {
+                "type": "stdio"
+            },
+            "runtime": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "src.server"
+                ]
+            }
+        }
+    ]
+}
