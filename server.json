@@ -6,12 +6,12 @@
         "url": "https://github.com/ankitpal181/toon-parse-mcp",
         "source": "github"
     },
-    "version": "1.0.0-beta",
+    "version": "1.0.1-beta",
     "packages": [
         {
             "registryType": "pypi",
             "identifier": "toon-parse-mcp",
-            "version": "1.0.1-beta",
+            "version": "1.0.2-beta",
             "transport": {
                 "type": "stdio"
             },

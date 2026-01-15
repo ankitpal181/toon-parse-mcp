@@ -9,7 +9,7 @@ A specialized [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) s
 
 ## Overview
 
-The `toon-parse` MCP server helps AI agents (like Cursor, Claude Desktop, etc.) operate more efficiently by:
+The `toon-parse-mcp` MCP server helps AI agents (like Cursor, Claude Desktop, etc.) operate more efficiently by:
 1.  **Optimizing Code Context**: Stripping comments and redundant spacing from code files while preserving functional structure and docstrings.
 2.  **Data Format Conversion**: Converting JSON, XML, YAML, and CSV inputs into the compact TOON format to save tokens.
 3.  **Mandatory Efficiency Protocol**: A built-in resource that instructs LLMs to prioritize token-saving tools.
@@ -35,7 +35,7 @@ pip install toon-parse-mcp
 
 1. Open Cursor Settings -> MCP.
 2. Click "+ Add New MCP Server".
-3. Name: `toon-parse`
+3. Name: `toon-parse-mcp`
 4. Type: `command`
 5. Command: `python -m src.server` (Ensure your environment is active or use absolute path to python)
 
@@ -48,7 +48,7 @@ pip install toon-parse-mcp
 ```json
 {
   "mcpServers": {
-    "toon-parse": {
+    "toon-parse-mcp": {
       "command": "python",
       "args": ["-m", "src.server"]
     }
@@ -66,7 +66,7 @@ pip install toon-parse-mcp
 ```json
 {
   "mcpServers": {
-    "toon-parse": {
+    "toon-parse-mcp": {
       "command": "python",
       "args": ["-m", "src.server"]
     }
@@ -81,7 +81,7 @@ Add this to your `claude_desktop_config.json`:
 ```json
 {
   "mcpServers": {
-    "toon-parse": {
+    "toon-parse-mcp": {
       "command": "python",
       "args": ["-m", "src.server"]
     }
