@@ -1,5 +1,7 @@
 # toon-parse MCP Server
 
+mcp-name: io.github.ankitpal181/toon-parse-mcp
+
 [![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://registry.modelcontextprotocol.io/)
 [![PyPI version](https://badge.fury.io/py/toon-parse-mcp.svg)](https://badge.fury.io/py/toon-parse-mcp)
 
