@@ -7,7 +7,7 @@ where = ["src"]
 
 [project]
 name = "toon-parse-mcp"
-version = "1.0.2-beta"
+version = "1.0.3-beta"
 description = "Token optimization MCP server that reduces LLM context by stripping code comments and converting data formats to TOON"
 readme = "README.md"
 authors = [
