@@ -14,5 +14,6 @@ def smart_optimize(content: str) -> str:
     for index, block in enumerate(code_blocks[::-1]):
         reduced_code = reduce_code_block(block["code"])
         content = content.strip().replace(f"#code#{index}#code#", reduced_code)
+        content = content.replace("\n\n", "\n")
     
     return content

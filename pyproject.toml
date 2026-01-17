@@ -7,7 +7,7 @@ where = ["src"]
 
 [project]
 name = "toon-parse-mcp"
-version = "1.0.3-beta"
+version = "1.0.4-beta"
 description = "Token optimization MCP server that reduces LLM context by stripping code comments and converting data formats to TOON"
 readme = "README.md"
 authors = [
@@ -29,7 +29,7 @@ keywords = ["mcp", "model-context-protocol", "toon", "optimization", "llm"]
 requires-python = ">=3.10"
 dependencies = [
   "mcp>=1.25.0",
-  "toon-parse>=2.4.1",
+  "toon-parse>=2.4.3",
 ]
 
 [tool.mcp]

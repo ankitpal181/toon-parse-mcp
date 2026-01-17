@@ -14,3 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Resource: `protocol://mandatory-efficiency` for LLM instruction.
 - Basic configuration and documentation for Cursor and Claude Desktop.
 - Support for official MCP registry submission via `server.json`.
+
+## [1.0.3-beta] - 2026-01-17
+
+### Added
+- Code optimization utility function updated to remove extra empty lines
+- Dependencies updated to latest versions

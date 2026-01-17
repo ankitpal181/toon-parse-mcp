@@ -110,7 +110,7 @@ To run the test suite:
 
 - Python >= 3.10
 - `mcp` >= 1.25.0
-- `toon-parse` >= 2.4.1
+- `toon-parse` >= 2.4.3
 
 ## License
 
